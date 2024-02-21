@@ -1,0 +1,108 @@
+2024-02-21T00:09:33.798+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplicationTests    : Starting CandidateRecordApplicationTests using Java 17.0.6 with PID 9964 (started by rswayam in C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record)
+2024-02-21T00:09:33.816+05:30 DEBUG 9964 --- [main] c.s.c.CandidateRecordApplicationTests    : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-21T00:09:33.820+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T00:09:37.290+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21T00:09:37.544+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interface.
+2024-02-21T00:09:39.458+05:30  INFO 9964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21T00:09:39.750+05:30  INFO 9964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-21T00:09:39.920+05:30  INFO 9964 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-21T00:09:40.872+05:30  INFO 9964 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21T00:09:40.953+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21T00:09:40.969+05:30  WARN 9964 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-02-21T00:09:42.300+05:30  INFO 9964 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3118a
+2024-02-21T00:09:42.306+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21T00:09:42.481+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-21T00:09:42.484+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-21T00:09:44.643+05:30  INFO 9964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-21T00:09:44.742+05:30  INFO 9964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:46.128+05:30  WARN 9964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21T00:09:47.431+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplicationTests    : Started CandidateRecordApplicationTests in 15.264 seconds (process running for 20.909)
+2024-02-21T00:09:49.008+05:30  INFO 9964 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-02-21T00:09:49.062+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplication         : Starting CandidateRecordApplication using Java 17.0.6 with PID 9964 (started by rswayam in C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record)
+2024-02-21T00:09:49.062+05:30 DEBUG 9964 --- [main] c.s.c.CandidateRecordApplication         : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-21T00:09:49.063+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T00:09:49.325+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21T00:09:49.344+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-02-21T00:09:49.749+05:30  INFO 9964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9991 (http)
+2024-02-21T00:09:49.794+05:30  INFO 9964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T00:09:49.794+05:30  INFO 9964 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-21T00:09:49.948+05:30  INFO 9964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T00:09:49.949+05:30  INFO 9964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 881 ms
+2024-02-21T00:09:50.144+05:30  INFO 9964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21T00:09:50.160+05:30  INFO 9964 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-21T00:09:50.173+05:30  INFO 9964 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21T00:09:50.175+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-02-21T00:09:50.176+05:30  WARN 9964 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-02-21T00:09:50.245+05:30  INFO 9964 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fb7eb2c
+2024-02-21T00:09:50.246+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-02-21T00:09:50.247+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-21T00:09:50.248+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-21T00:09:50.328+05:30  INFO 9964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-21T00:09:50.348+05:30  INFO 9964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:50.454+05:30  WARN 9964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21T00:09:50.803+05:30  INFO 9964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9991 (http) with context path ''
+2024-02-21T00:09:50.810+05:30  INFO 9964 --- [main] c.s.c.CandidateRecordApplication         : Started CandidateRecordApplication in 1.802 seconds (process running for 24.288)
+2024-02-21T00:09:50.882+05:30  INFO 9964 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sprint.candidaterecord.service.CandidateServiceImplTest]: CandidateServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-21T00:09:50.914+05:30  INFO 9964 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sprint.candidaterecord.CandidateRecordApplication for test class com.sprint.candidaterecord.service.CandidateServiceImplTest
+2024-02-21T00:09:50.923+05:30  INFO 9964 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-02-21T00:09:50.964+05:30  INFO 9964 --- [main] c.s.c.service.CandidateServiceImplTest   : Starting CandidateServiceImplTest using Java 17.0.6 with PID 9964 (started by rswayam in C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record)
+2024-02-21T00:09:50.964+05:30 DEBUG 9964 --- [main] c.s.c.service.CandidateServiceImplTest   : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-21T00:09:50.965+05:30  INFO 9964 --- [main] c.s.c.service.CandidateServiceImplTest   : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T00:09:51.242+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21T00:09:51.269+05:30  INFO 9964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-02-21T00:09:52.177+05:30  INFO 9964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21T00:09:52.216+05:30  INFO 9964 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-21T00:09:52.240+05:30  INFO 9964 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21T00:09:52.244+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-02-21T00:09:52.245+05:30  WARN 9964 --- [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-02-21T00:09:52.335+05:30  INFO 9964 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4882a2cd
+2024-02-21T00:09:52.336+05:30  INFO 9964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-02-21T00:09:52.338+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-21T00:09:52.338+05:30  WARN 9964 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-21T00:09:52.450+05:30  INFO 9964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-21T00:09:52.478+05:30  INFO 9964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:52.627+05:30  WARN 9964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21T00:09:53.071+05:30  INFO 9964 --- [main] c.s.c.service.CandidateServiceImplTest   : Started CandidateServiceImplTest in 2.148 seconds (process running for 26.549)
+2024-02-21T00:09:53.365+05:30  INFO 9964 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:53.372+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21T00:09:53.394+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-21T00:09:53.460+05:30  INFO 9964 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:53.461+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-02-21T00:09:53.478+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-02-21T00:09:54.284+05:30  INFO 9964 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:09:54.287+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-02-21T00:09:54.300+05:30  INFO 9964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-02-21T00:19:38.082+05:30  INFO 22700 --- [main] c.s.c.CandidateRecordApplicationTests    : Starting CandidateRecordApplicationTests using Java 17.0.6 with PID 22700 (started by rswayam in C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record)
+2024-02-21T00:44:47.189+05:30  INFO 5440 --- [restartedMain] c.s.c.CandidateRecordApplication         : Starting CandidateRecordApplication using Java 17.0.7 with PID 5440 (C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record\target\classes started by rswayam in C:\Users\rswayam\OneDrive - DXC Production\Desktop\All\Sprint 0\Candidate-record)
+2024-02-21T00:44:47.191+05:30 DEBUG 5440 --- [restartedMain] c.s.c.CandidateRecordApplication         : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-21T00:44:47.192+05:30  INFO 5440 --- [restartedMain] c.s.c.CandidateRecordApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T00:44:47.249+05:30  INFO 5440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T00:44:47.249+05:30  INFO 5440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T00:44:48.048+05:30  INFO 5440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21T00:44:48.137+05:30  INFO 5440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-02-21T00:44:48.835+05:30  INFO 5440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9991 (http)
+2024-02-21T00:44:48.852+05:30  INFO 5440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T00:44:48.853+05:30  INFO 5440 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-21T00:44:48.925+05:30  INFO 5440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T00:44:48.925+05:30  INFO 5440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1676 ms
+2024-02-21T00:44:48.971+05:30  INFO 5440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-21T00:44:48.977+05:30  WARN 5440 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-02-21T00:44:49.315+05:30  INFO 5440 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42cbaffb
+2024-02-21T00:44:49.317+05:30  INFO 5440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-21T00:44:49.328+05:30  INFO 5440 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sprint'
+2024-02-21T00:44:49.507+05:30  INFO 5440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-21T00:44:49.590+05:30  INFO 5440 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-21T00:44:49.666+05:30  INFO 5440 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-21T00:44:49.953+05:30  INFO 5440 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21T00:44:50.029+05:30  WARN 5440 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-21T00:44:50.029+05:30  WARN 5440 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-21T00:44:50.914+05:30  INFO 5440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-21T00:44:50.972+05:30  INFO 5440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:44:51.219+05:30  WARN 5440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21T00:44:51.568+05:30  INFO 5440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T00:44:51.621+05:30  INFO 5440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9991 (http) with context path ''
+2024-02-21T00:44:51.631+05:30  INFO 5440 --- [restartedMain] c.s.c.CandidateRecordApplication         : Started CandidateRecordApplication in 4.91 seconds (process running for 5.845)
+2024-02-21T00:44:59.446+05:30  INFO 5440 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21T00:44:59.476+05:30  INFO 5440 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21T00:44:59.479+05:30  INFO 5440 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-21T00:44:59.488+05:30  INFO 5440 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
